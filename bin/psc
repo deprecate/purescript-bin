@@ -6,4 +6,4 @@ var input = process.argv.slice(2);
 var spawn = require('child_process').spawn;
 
 spawn(bin, input, { stdio: 'inherit' })
-	.on('exit', process.exit);
+    .on('exit', process.exit);
