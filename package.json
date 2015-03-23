@@ -1,0 +1,51 @@
+{
+  "name": "purescript-bin",
+  "version": "0.1.0+purescript-0.6.9.3",
+  "description": "purescript binary wrapper that makes it seamlessly available as a local dependency",
+  "license": "MIT",
+  "repository": "passy/purescript-bin",
+  "author": {
+    "name": "Pascal Hartig",
+    "email": "passy@twitter.com",
+    "url": "https://github.com/passy"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "psc": "bin/psc",
+    "psc-docs": "bin/psc-docs",
+    "psc-make": "bin/psc-make",
+    "psci": "bin/psci"
+  },
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "node test.js"
+  },
+  "files": [
+    "bin",
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "bin",
+    "binary",
+    "cli",
+    "cli-app",
+    "psc",
+    "psci",
+    "psc-make",
+    "psc-doc",
+    "purescript",
+    "wrapper"
+  ],
+  "dependencies": {
+    "async-each-series": "^0.1.1",
+    "bin-wrapper": "^3.0.0",
+    "logalot": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4",
+    "bin-check": "^1.0.0"
+  }
+}
