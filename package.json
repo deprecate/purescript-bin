@@ -1,6 +1,6 @@
 {
   "name": "purescript-bin",
-  "version": "0.1.0+purescript-0.6.9.3",
+  "version": "0.1.1+purescript-0.6.9.3",
   "description": "purescript binary wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
   "repository": "passy/purescript-bin",
